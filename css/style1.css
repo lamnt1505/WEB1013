@@ -1,0 +1,209 @@
+*{
+    padding: auto;
+    margin: auto ;
+    box-sizing: border-box;
+}
+.container{
+margin: auto;
+width: 1600px;
+height: 1600px;
+position: relative;
+
+}
+#banner{
+    min-height: 300px;
+    background-color: blue;
+    margin-top: 10px;
+    
+}
+#menu{
+    background-color:blue;
+    min-height: 50px;
+}
+#noidung{
+    min-height: 400px;
+    width: 25%;
+    background-color:rgb(235, 231, 231);
+    float: left;
+}
+#menudoc{
+    min-height: 200px;
+    width: 75%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    clear: both;
+}
+
+
+#menudoc .nd-chinh{
+    min-height: 400px;
+    width: 475px;
+    background-color: white;
+   padding-left: 15px;
+}
+
+
+#menudoc .nd-ngoai{
+    min-height: 400px;
+    width: 400px;
+    background-color: rgb(235, 231, 231);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#menu a{
+padding-left: 40px;
+color: yellow;
+text-decoration: none;
+line-height: 40px;
+padding: 20px  20px;
+margin: 20px;
+}
+#menu a:hover{
+background-color: red;
+min-height: 50px;
+}
+.nd-ngoai>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 1px double rgb(194, 194, 194);
+    display: block;
+}
+.nd-ngoai>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#footer{
+    width: 100%;
+    clear: both;
+    background-color: black;
+}
+.form-tt{
+    margin: 0 auto;
+    width: 400px;
+}
+h1{
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0 0 15px yellow;
+    text-align: center;
+    font-variant: small-caps;
+}
+.form{
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+label{
+    font-variant: small-caps;
+}
+
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+.container{
+margin: 0 auto;
+width: 1500px;
+position: relative;
+
+}
+#banner{
+    min-height: 300px;
+    background-color: blue;
+    margin-top: 10px;
+    
+}
+#menu{
+    background-color:blue;
+    min-height: 50px;
+}
+#noidung{
+    min-height: 1900px;
+    width: 25%;
+    background-color:rgb(235, 231, 231);
+    float: left;
+}
+#menudoc{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    clear: both;
+}
+
+
+#menudoc .nd-chinh{
+    min-height: 400px;
+    width: 475px;
+    background-color: white;
+   padding-left: 15px;
+}
+
+
+#menudoc .nd-ngoai{
+    min-height: 1900px;
+    width: 400px;
+    background-color: rgb(235, 231, 231);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#menu>a>{
+padding-left: 40px;
+color: yellow;
+text-decoration: none;
+line-height: 40px;
+padding: 20px 20px;
+margin: 20px;
+}
+#menu>a:hover{
+background-color: red;
+min-height: 50px;
+}
+#menudoc .nd-ngoai>ul>li>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 1px double rgb(194, 194, 194);
+    display: block;
+}
+.nd-ngoai>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#chantrang{
+    background-color: rgb(5, 5, 68);
+    min-height: 400px;
+}
+#content{
+    text-align: center;
+    left: 200px;
+    right: 300px;
+    
+    
+}
+
+footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.hover{
+    box-shadow: 0 0 20px red;
+    -moz-box-shadow:0 0 20px red;
+    -webkit-box-shadow:0 0 5px red;
+    background-color: aqua;
+}   
+
