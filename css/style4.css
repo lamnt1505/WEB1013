@@ -11,7 +11,7 @@ caption{
     font-size: 30px;
     font-variant: small-caps;
     font-weight: bolder;
-    color: black;
+    color: orangered;
     text-shadow: 0 0 20px black;
     margin: 10px 0;
 }
@@ -45,10 +45,11 @@ caption{
 }
 
 footer{
-    border-top: 5px double orangered;
+    border-top: 5px double black;
     line-height: 50px;
-    background-color: lightcyan;
+    background-color: black;
     text-align: center;
     font-variant: small-caps;
     clear: both;
+    color: orangered;
 }
